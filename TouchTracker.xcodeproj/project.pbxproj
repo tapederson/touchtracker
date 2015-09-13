@@ -255,7 +255,7 @@
 		BED69F90141E5CD20042D98C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tony Pederson (D92C42N635)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Appirio, Inc./";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TouchTracker/TouchTracker-Prefix.pch";
 				INFOPLIST_FILE = "TouchTracker/TouchTracker-Info.plist";
