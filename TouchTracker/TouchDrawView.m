@@ -22,6 +22,7 @@
         // Don't let the autocomplete fool you on the next line,
         // make sure you are instantiating an NSMutableArray
         // and not an NSMutableDictionary!
+        
         completeLines = [[NSMutableArray alloc] init];
         
         [self setBackgroundColor:[UIColor whiteColor]];
