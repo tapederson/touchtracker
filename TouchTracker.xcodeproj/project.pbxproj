@@ -194,8 +194,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tony Pederson (D92C42N635)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tony Pederson (D92C42N635)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Appirio, Inc./";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Appirio, Inc./";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -210,7 +210,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "7f77bc7d-4454-4210-afe9-6aa1351afa80";
+				PROVISIONING_PROFILE = "c09c2ba3-e88c-404c-a152-069d9da366ae";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -221,8 +221,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tony Pederson (D92C42N635)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tony Pederson (D92C42N635)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Appirio, Inc./";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Appirio, Inc./";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -231,7 +231,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "7f77bc7d-4454-4210-afe9-6aa1351afa80";
+				PROVISIONING_PROFILE = "c09c2ba3-e88c-404c-a152-069d9da366ae";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -240,7 +240,7 @@
 		BED69F8F141E5CD20042D98C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tony Pederson (D92C42N635)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Appirio, Inc./";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TouchTracker/TouchTracker-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -250,7 +250,7 @@
 				);
 				INFOPLIST_FILE = "TouchTracker/TouchTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7f77bc7d-4454-4210-afe9-6aa1351afa80";
+				PROVISIONING_PROFILE = "c09c2ba3-e88c-404c-a152-069d9da366ae";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -263,7 +263,7 @@
 				GCC_PREFIX_HEADER = "TouchTracker/TouchTracker-Prefix.pch";
 				INFOPLIST_FILE = "TouchTracker/TouchTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7f77bc7d-4454-4210-afe9-6aa1351afa80";
+				PROVISIONING_PROFILE = "c09c2ba3-e88c-404c-a152-069d9da366ae";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
