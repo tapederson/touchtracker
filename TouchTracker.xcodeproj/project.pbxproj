@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6B91D51BAA16AD000AA7B6 /* appirio-generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C6B91D41BAA16AD000AA7B6 /* appirio-generic.png */; };
 		BED69F7B141E5CD20042D98C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED69F7A141E5CD20042D98C /* UIKit.framework */; };
 		BED69F7D141E5CD20042D98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED69F7C141E5CD20042D98C /* Foundation.framework */; };
 		BED69F7F141E5CD20042D98C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED69F7E141E5CD20042D98C /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6B91D41BAA16AD000AA7B6 /* appirio-generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appirio-generic.png"; sourceTree = "<group>"; };
 		BED69F76141E5CD20042D98C /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED69F7A141E5CD20042D98C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BED69F7C141E5CD20042D98C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +56,7 @@
 		BED69F6B141E5CD10042D98C = {
 			isa = PBXGroup;
 			children = (
+				2C6B91D41BAA16AD000AA7B6 /* appirio-generic.png */,
 				BED69F80141E5CD20042D98C /* TouchTracker */,
 				BED69F79141E5CD20042D98C /* Frameworks */,
 				BED69F77141E5CD20042D98C /* Products */,
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6B91D51BAA16AD000AA7B6 /* appirio-generic.png in Resources */,
 				BED69F85141E5CD20042D98C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
