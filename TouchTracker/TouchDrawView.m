@@ -250,7 +250,7 @@
 
     
     // Draw complete lines in black
-    [[UIColor blueColor] set];
+    [[UIColor purpleColor] set];
     for (Line *line in completeLines) {
         CGContextMoveToPoint(context, [line begin].x, [line begin].y);
         CGContextAddLineToPoint(context, [line end].x, [line end].y);
@@ -258,7 +258,7 @@
     }
     // Draw lines in process in red (don't copy and paste the previous for loop, it's
     // way different)
-    [[UIColor yellowColor] set];
+    [[UIColor greenColor] set];
     for (NSValue *v in linesInProcess) {
         Line *line = [linesInProcess objectForKey:v];
         CGContextMoveToPoint(context, [line begin].x, [line begin].y);
