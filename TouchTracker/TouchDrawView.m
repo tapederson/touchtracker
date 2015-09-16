@@ -250,7 +250,7 @@
 
     
     // Draw complete lines in black
-    [[UIColor purpleColor] set];
+    [[UIColor redColor] set];
     for (Line *line in completeLines) {
         CGContextMoveToPoint(context, [line begin].x, [line begin].y);
         CGContextAddLineToPoint(context, [line end].x, [line end].y);
