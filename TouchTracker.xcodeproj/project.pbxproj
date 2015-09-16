@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C189C291BAA1C9C00D24ED7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C189C281BAA1C9C00D24ED7 /* Images.xcassets */; };
 		2C6B91D51BAA16AD000AA7B6 /* appirio-generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C6B91D41BAA16AD000AA7B6 /* appirio-generic.png */; };
 		BED69F7B141E5CD20042D98C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED69F7A141E5CD20042D98C /* UIKit.framework */; };
 		BED69F7D141E5CD20042D98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED69F7C141E5CD20042D98C /* Foundation.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C189C281BAA1C9C00D24ED7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C6B91D41BAA16AD000AA7B6 /* appirio-generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appirio-generic.png"; sourceTree = "<group>"; };
 		BED69F76141E5CD20042D98C /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED69F7A141E5CD20042D98C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 				BED69F95141E5D6F0042D98C /* TouchDrawView.m */,
 				BED69F97141E5E850042D98C /* TouchViewController.h */,
 				BED69F98141E5E850042D98C /* TouchViewController.m */,
+				0C189C281BAA1C9C00D24ED7 /* Images.xcassets */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C189C291BAA1C9C00D24ED7 /* Images.xcassets in Resources */,
 				2C6B91D51BAA16AD000AA7B6 /* appirio-generic.png in Resources */,
 				BED69F85141E5CD20042D98C /* InfoPlist.strings in Resources */,
 			);
@@ -244,6 +248,8 @@
 		BED69F8F141E5CD20042D98C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Appirio, Inc./";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TouchTracker/TouchTracker-Prefix.pch";
@@ -262,6 +268,8 @@
 		BED69F90141E5CD20042D98C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Appirio, Inc./";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TouchTracker/TouchTracker-Prefix.pch";
